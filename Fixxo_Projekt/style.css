@@ -1,0 +1,977 @@
+
+
+.gridContainer
+{
+display: grid;
+grid-template-columns: repeat(4, 250px);
+justify-content: space-around;
+justify-content: center;
+row-gap: 80px;
+
+}
+
+.gridContainer2
+{
+display: grid;
+grid-template-columns: repeat(3, 235px);
+
+justify-content: space-around;
+justify-content: center;
+row-gap: 80px;
+position: absolute;
+left: 930px;
+top: 2300px;
+}
+
+.gridContainer3
+{
+display: grid;
+grid-template-columns: repeat(3, 235px);
+
+justify-content: space-around;
+justify-content: center;
+row-gap: 80px;
+position: relative;
+right: 395px;
+
+}
+
+
+
+
+
+
+.flexContainer
+{
+
+display: flex;
+
+
+}
+
+.flexContainer2
+{
+
+display: flex;
+
+
+}
+
+.flexContainer3
+{
+
+display: flex;
+
+
+}
+
+.flexContainer4
+{
+
+display: flex;
+
+
+}
+
+.flexContainer5
+{
+
+display: flex;
+
+
+}
+
+.facebook2
+{
+    color: black;
+    position: relative;
+    top: 400px;
+    left: 500px;
+
+}
+
+
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+
+}
+
+
+.imageContainer
+{
+margin-top: 65px;
+
+}
+
+
+
+
+
+.fixxoText
+{
+font-size:xx-large;
+font-weight: bold;
+position: absolute;
+left: 120px;
+top: 30px
+
+}
+
+.contactButton
+{
+position: absolute;
+left: 950px;
+top: 40px;
+
+}
+
+.homeButton
+{
+position: absolute;
+left: 870px;
+top: 40px;
+
+}
+
+.contactButton2
+{
+position: absolute;
+left: 950px;
+top: 40px;
+color: red;
+}
+
+.homeButton2
+{
+position: absolute;
+left: 870px;
+top: 40px;
+color: red;
+
+}
+
+.redLink
+{
+    text-decoration: none;
+    color: red;
+}
+
+.imageClass
+{
+height: 600px;
+
+}
+
+
+
+.iconClass
+{
+position: absolute;
+left: 1200px;
+top: 40px;
+
+
+
+}
+
+.refreshClass
+{
+position: absolute;
+left: 1250px;
+top: 40px;
+}
+
+.heartClass
+{
+    position: absolute;
+    left: 1300px;
+    top: 40px;
+
+}
+
+.bagClass
+{
+    position: absolute;
+    left: 1350px;
+    top: 40px;
+
+}
+
+.opportunity
+{
+position: absolute;
+bottom: 230px;
+left: 230px;
+color: red;
+
+}
+
+.tinyText
+{
+    font-size: 80px;
+    color: red;
+
+}
+
+.smallText
+{
+    font-size: xx-large;
+    color: red;
+}
+
+.smallestText
+{
+    font-size: medium;
+    color: red;
+}
+
+.shopButton
+{
+background-color: rgb(222, 94, 117);
+position: absolute;
+bottom: 150px;
+left: 220px;
+height: 50px;
+width: 130px;
+
+
+
+}
+
+.text1
+{
+    position: absolute;
+    top: 500;
+    left: 1500;
+
+}
+
+.featuredProduct
+{
+    position: absolute;
+    bottom: 20px;
+    left: 675px;
+    font-size: x-large;
+}
+
+.shopButton:hover
+{
+    background-color: blue;
+}
+
+a:active
+{
+background-color: green;
+
+}
+
+
+
+.iconClass:hover
+{
+    color: green;
+}
+
+.refreshClass:hover
+{
+    color: green;
+}
+
+.heartClass:hover
+{
+
+    color: green;
+}
+
+.bagClass:hover
+{
+    color: green;
+}
+
+.contactButton
+{
+    color: green;
+}
+
+.blouseBox
+{
+height: 230px;
+margin: 10px;
+border: 3px solid #333;
+background-color: #dfdfdf;
+}
+
+
+
+.cl2
+{
+    
+    position: relative;
+    left: 30px;
+    
+}
+
+.category
+{
+    color: gray;
+    position: relative;
+    left: 10px;
+}
+
+.modernBlackBlouse
+ {
+    font-size: x-large;
+    
+
+ }
+ 
+ .checked
+ {
+color: rgb(229, 53, 97);
+
+ }
+
+ .lineThrough
+ {
+    text-decoration: line-through;
+    display: inline;
+ }
+
+ .imageLeft
+{
+position: relative;
+left: 0px;
+bottom: 50px;
+}
+
+.imageCenter
+{
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+
+
+}
+
+.imageRight
+{
+    position: relative;
+    left: 42px;
+    bottom: 50px;
+
+
+
+}
+
+.imageLeftText
+{
+    position: absolute;
+    bottom: 140px;
+    left: 340px;
+    font-size: xx-large;
+}
+
+.shopNow
+{
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.fiftyPoffer
+{
+    position: absolute;
+font-size: xx-large;
+bottom: 240px;
+left: 160px;
+
+}
+
+.falseSalefiftyPoffer
+{
+    font-size: medium;
+}
+
+.frame
+{
+color: #ad2159;
+padding: 15px;
+border-top: 10px solid #d93b7a;
+border-bottom: 10px solid #d93b7a;
+border-left: 10px solid #d93b7a;
+border-right: 10px solid #d93b7a;
+
+}
+
+.lorem
+{
+    position: absolute;
+    font-size:small;
+    top: 60px;
+}
+
+.loremButton
+{
+    position: relative;
+    top: 150px;
+    height: 60px;
+    width: 140px;
+    text-align: center; 
+}
+
+.item1
+{
+width: 2px;
+height: 25px;
+background-color: black;
+position: relative;
+bottom: 20px;
+left: 16px;
+}
+
+.item2
+{
+width: 25px;
+height: 2px;
+background-color: black;
+position: relative;
+bottom: 20px;
+left: 16px;
+}
+
+.item3
+{
+width: 2.5px;
+height: 25px;
+background-color: black;
+position: relative;
+bottom: 4px;
+left: 95px;
+}
+
+.item4
+{
+width: 25px;
+height: 2px;
+background-color: black;
+position: relative;
+top: 20px;
+left: 70px;
+}
+
+.item5
+{
+width: 2px;
+height: 25px;
+background-color: black;
+position: relative;
+bottom: 10px;
+left: 16px;
+}
+
+.item6
+{
+width: 25px;
+height: 2px;
+background-color: black;
+position: relative;
+bottom: 10px;
+left: 16px;
+}
+
+.item7
+{
+width: 2.5px;
+height: 25px;
+background-color: black;
+position: relative;
+bottom: 5px;
+left: 82px;
+}
+
+.item8
+{
+width: 25px;
+height: 2px;
+background-color: black;
+position: relative;
+top: 20px;
+left: 55px;
+}
+
+
+
+
+
+
+.item9
+{
+width: 2px;
+height: 25px;
+background-color: black;
+position: relative;
+bottom: 18px;
+left: 16px;
+}
+
+.item10
+{
+width: 25px;
+height: 2px;
+background-color: black;
+position: relative;
+bottom: 18px;
+left: 16px;
+}
+
+.item11
+{
+width: 2.5px;
+height: 25px;
+background-color: black;
+position: relative;
+bottom: 0px;
+left: 135px;
+}
+
+.item12
+{
+width: 25px;
+height: 2px;
+background-color: black;
+position: relative;
+top: 24px;
+left: 107px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.redColor
+{
+    color: red;
+    text-decoration: underline;
+}
+
+.test
+{
+    position: absolute;
+    left: 251px;
+    bottom: 165px;
+}
+
+.loremButton:hover
+{
+    background-color: yellow;
+}
+
+.greyBox
+{
+background-color: rgb(181, 181, 181);
+height: 775px;
+width: 900px;
+justify-content: center;
+}
+
+.greyBoxContent
+{
+position: relative;
+left: 319px;
+top: 280px;
+color: white;
+
+}
+
+.greyBoxContent2
+{
+position: relative;
+left: 250px;
+top: 280px;
+color: white;
+}
+
+.largeText
+{
+    font-size: 55px;
+}
+
+.newProductsClass
+{
+    height: 56px;
+    width: 180px;
+}
+
+.newProductsClass:hover
+{
+background-color: orange;
+
+}
+
+.greyBox2
+{
+background-color: rgb(181, 181, 181);
+height: 775px;
+width: 900px;
+justify-content: center;
+position: relative;
+left: 735px;
+bottom: 835px;
+}
+
+.greyBoxContent3
+{
+position: relative;
+left: 319px;
+top: 280px;
+color: white;
+
+}
+
+.greyBoxContent4
+{
+position: relative;
+left: 250px;
+top: 280px;
+color: white;
+}
+
+.greyLine
+{
+height: 2px;
+width: 1200px;
+background-color: gray;
+position: relative;
+left: 430px;
+bottom: 770px;
+}
+
+
+.boldText
+{
+font-weight: bold;
+font-size: x-large;
+
+
+
+}
+
+.box1
+{
+position: relative;
+left: 450px;
+bottom: 735px;
+
+
+}
+
+.phoneClass
+{
+
+position: relative;
+left: 57px;
+    
+}
+
+.box2
+{
+
+    position: relative;
+left: 500px;
+bottom: 735px;
+
+
+}
+
+
+
+
+.cardClass
+{
+    position: relative;
+    left: 57px;
+
+}
+
+.box3
+{
+    position: relative;
+    left: 555px;
+    bottom: 735px;
+
+}
+
+.truckClass
+{
+    position: relative;
+    left: 57px;
+
+}
+
+.box4
+{
+    position: relative;
+    left: 610px;
+    bottom: 735px;
+
+
+}
+
+.end
+{
+  
+    left: 0;
+    bottom: 700px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+   position: relative;
+   
+   
+}
+
+.end2
+{
+  
+    left: 0;
+   top: 400px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+   position: relative;
+   
+   
+}
+
+
+.icons2
+{
+position: absolute;
+top: 1250px;
+left: 800px;
+
+}
+
+.facebook
+{
+    color: black;
+}
+
+.instagram
+{
+    color: black;
+    position: relative;
+    left: 50px;
+    bottom: 24px;
+}
+
+.instagram2
+{
+    color: black;
+    position: relative;
+    left: 50px;
+    bottom: 19px;
+}
+
+
+.twitter
+{
+    color: black;
+    position: relative;
+    left: 100px;
+    bottom: 47px;
+
+
+}
+
+.twitter2
+{
+    color: black;
+    position: relative;
+    left: 100px;
+    bottom: 38px;
+
+
+}
+
+.google
+{
+    color: black;
+    position: relative;
+    left: 145px;
+    bottom: 69px;
+
+}
+
+.google2
+{
+    color: black;
+    position: relative;
+    left: 145px;
+    bottom: 56px;
+
+}
+
+
+.linkedin
+{
+    color: black;
+    position: relative;
+    left: 178px;
+    bottom: 95px;
+
+
+}
+
+.linkedin2
+{
+    color: black;
+    position: relative;
+    left: 178px;
+    bottom: 75px;
+
+
+}
+
+.copyright
+{
+    position: relative;
+    right: 77px;
+    bottom: 10px;
+
+}
+
+.copyrightText
+{
+
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+
+
+}
+
+.imageContainer2
+{
+position: relative;
+top: 200px;
+left: 0px;
+}
+
+
+
+.links
+{
+    position: absolute;
+    left: 380px;
+    top: 150px;
+}
+
+.linkPos
+{
+position: absolute;
+left: 442px;
+top: 150px;
+
+}
+
+.comeInContact
+{
+    position: absolute;
+    top: 660px;
+    left: 780px;
+   font-weight: bold;
+    font-size: x-large;
+}
+
+.formClass
+{
+position: relative;
+left: 550px;
+top: 390px;
+
+
+
+}
+
+.formClass input
+{
+    font-size: 40px;
+    
+    
+}
+
+.formClassLarge
+{
+position: relative;
+
+top: 75px;
+
+
+
+}
+
+.formClassLarge input
+{
+    font-size: 100px;
+    margin-bottom: 280px;
+    
+}
+
+.postCclass
+{
+height: 45px;
+width: 220px;
+background-color:#d93b7a;
+top: 1000px;
+left: 550px;
+position: absolute;
+
+}
+
+.postCclass:hover
+{
+    background-color: blue;
+}
+
+.endOfPage
+{
+    position: relative;
+    left: 0;
+    top: 378px;
+    width: 140%;
+    height: 100px;
+    background-color: rgb(206, 206, 206);
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.footer {
+   position: relative;
+    left: 0;
+   top: 700px;
+   height: 145px;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    color: white;
+    text-align: center;
+  }
